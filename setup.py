@@ -1,3 +1,4 @@
+
 from __future__ import absolute_import
 
 from os import path
@@ -23,7 +24,7 @@ setup(
     author_email=
     'ashesh276@gmail.com, a.f.f.krull@bham.ac.uk,moises.disante@unipv.it,francesco.pasqualini@unipv.it, florian.jug@fht.org',
     license='BSD 3-Clause License',
-    packages= ['usplit', 'usplit.*', 'nets', 'nets.*'],
+    packages= ['usplit', 'usplit.nets'],
     project_urls={
         'Repository': 'https://github.com/juglab/uSplit/',
     },
